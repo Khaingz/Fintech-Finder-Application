@@ -24,11 +24,11 @@ To complete this challenge, I will assume the perspective of a Fintech Finder cu
 
 The steps for this challenge are broken out into the following sections:
 
-Step 1 - Import Ethereum Transaction Functions into the Fintech Finder Application.
+Step 1 - Import Ethereum rransaction functions into the "Fintech Finder Application".
 
-Step 2 - Sign and execute a pyament transaction
+Step 2 - Sign and execute a pyament transaction.
 
-Step 3 - Inspect the transaction on Ganache
+Step 3 - Inspect the transaction on Ganache.
 
 # Inspect the transaction
 
@@ -36,10 +36,10 @@ The following screenshots demonstrates the Home Applicagtion Page, as well as a 
 
 In the following application example, the user selected "Lane" for 100 hours. Lane's hourly rate is 0.2 Ether/hour. So the wage due in Ether is 20.0.
 After confriming the details, Click the "Send Transaction" button to sign and send the transaction with Ethereum account information. Navigate to the Transactions section of Ganache.
-The transaction can be confrimed by viewing Below Validated Transaction .
+The transaction can be confrimed by viewing Below Validated Transaction.
 
-# Verified in Ganache Fintech Finder Web App Screenshot
-![alt text](https://github.com/)
+### Verified in Ganache Fintech Finder Web App Screenshot
+![alt text](https://github.com/Khaingz/Fintech-Finder-Application/blob/main/Verified%20in%20Ganache%20Fintech%20Finder%20Web%20App%20-1.png)
 
 
 
@@ -52,8 +52,8 @@ The transaction can be confrimed by viewing Below Validated Transaction .
 
 To confirm this transaction was completed, we can view our account details in Ganache to review our address, balance, and transaction (TX) count. We know that this account started with 100 Ether, and the following screenshot indicates that 20 Ether was sent, leaving us with a current balance of 80 Ether.
 
-# Screenshot
-[alt text](https://github.com/)
+### Ganache Account balance Screenshot
+![alt text](https://github.com/Khaingz/Fintech-Finder-Application/blob/main/Ganache%20Account%20balance%20Screenshot%20%20-2.png)
 
 
 
@@ -66,8 +66,8 @@ To confirm this transaction was completed, we can view our account details in Ga
 
 To review the transaction details, navigate to the Ganache Transaction tab where the details can be view below:
 
-# Screenshot
-[alt text](https://github.com/)
+### Ganache Transaction details Screenshot
+![alt text](https://github.com/Khaingz/Fintech-Finder-Application/blob/main/Ganache%20Transaction%20details%20Screenshot%20-3.png)
 
 
 
@@ -101,3 +101,8 @@ Before running the application, install Python modules streamlit, web3 and ether
 
 - pip install eth-tester==0.5.0b3
 
+# Contributor
+Khaing Thwe
+
+# License 
+MIT
